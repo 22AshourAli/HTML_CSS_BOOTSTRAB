@@ -1,0 +1,121 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-image: url(../img/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header .header-content h1::after {
+  content: (" |");
+  animation-name: typing;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+#about .image {
+  background-image: url(../img/dots.png);
+}
+
+.about-line {
+  height: 1%;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+}
+.about-btns a[about-btn1]{
+  transition: all 0.5s;
+}
+.about-btns a[about-btn1]:hover{
+  background-color: white;
+  color: black;
+  
+}
+.about-btn2{
+transition: all 0.5s;
+}
+.about-btn2:hover{
+  background-color: black;
+  color: white;
+}
+.about-line1 {
+  width: 95%;
+}
+.about-line2 {
+  width: 80%;
+}
+.about-line3 {
+  width: 90%;
+}
+
+.item .icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: rgb(222, 221, 221);
+  color: black;
+  transition: all 0.5s;
+}
+.item:hover .icon {
+  background-color: black;
+  color: white;
+}
+.works-caption {
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.5s;
+}
+.works-item:hover .works-caption {
+  opacity: 1;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4e4e4e;
+  text-indent: 0;
+  border: #f1f1f1 solid 3px;
+}
+.carousel-indicators {
+  position: static;
+}
+.card {
+  overflow: hidden;
+}
+.card img {
+  transition: all 0.5s;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
+.btn{
+  position: relative;
+}
+.btn::after {
+  content: "";
+  background-color: black;
+  position: absolute;
+  width: 90%;
+  height: 4px;
+  left: 5%;
+  top: 100%;
+}
+.icon-contact{
+  transition: all 0.3s;
+}
+.icon-contact:hover{
+  color: red;
+
+  
+}
